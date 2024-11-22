@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Formative Marks Helper",
+  "version": "1.0",
+  "description": "Automate filling formative marks on the Banglar Shiksha portal.",
+  "author": "Your Name",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://school.banglarshiksha.gov.in/sms/exam/formative_marks_edit"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://school.banglarshiksha.gov.in/sms/exam/formative_marks_edit"],
+      "css": ["styles.css"],
+      "js": ["banner-script.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
