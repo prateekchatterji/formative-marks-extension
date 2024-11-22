@@ -28,4 +28,4 @@ Licensed under the [MIT License](LICENSE).
 
 ## Author
 
-Developed by [Prateek Chatterji](https://github.com/YourUsername).
+Developed by [Prateek Chatterji](https://github.com/prateekchatterji/formative-marks-extension).
