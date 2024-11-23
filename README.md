@@ -4,15 +4,22 @@ A Chrome Extension to automate the process of filling formative marks on the Ban
 
 ## How to Use
 
-1. Install the extension from the [GitHub repo](https://github.com/YourUsername/Formative-Marks-Helper).
-2. Navigate to the marks entry page on the Banglar Shiksha portal.
-3. Use the banner at the top of the page to input marks or dismiss the banner.
+1. Install the extension from the [GitHub repo](https://github.com/prateekchatterji/formative-marks-extension).
+2. Download the Repository/code. It donwloads as a zip file.
+   3 Load the Extension in Chrome
+
+- Open Chrome and navigate to chrome://extensions.
+- Enable Developer Mode (toggle in the top right corner).
+- Click Load unpacked and select the folder containing your extension files (formative-marks-extension).
+
+4. Navigate to [the formative marks entry page on the Banglar Shiksha portal](https://school.banglarshiksha.gov.in/sms/exam/formative_marks_edit)
+5. Use the "Fill Marks" button to input marks or the close button to dismiss the banner.
 
 ## Features
 
-- Stylish banner for input.
 - Prompts for marks entry.
-- Supports easy closing and re-triggering.
+- Supports easy closing
+- Retriggered by refreshing the page
 
 ## Disclaimer
 
@@ -28,4 +35,4 @@ Licensed under the [MIT License](LICENSE).
 
 ## Author
 
-Developed by [Prateek Chatterji](https://github.com/prateekchatterji/formative-marks-extension).
+Developed by [Prateek Chatterji](https://github.com/prateekchatterji/).
