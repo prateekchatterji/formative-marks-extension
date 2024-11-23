@@ -6,7 +6,8 @@ A Chrome Extension to automate the process of filling formative marks on the Ban
 
 1. Install the extension from the [GitHub repo](https://github.com/prateekchatterji/formative-marks-extension).
 2. Download the Repository/code. It donwloads as a zip file.
-   3 Load the Extension in Chrome
+
+3 Load the Extension in Chrome
 
 - Open Chrome and navigate to chrome://extensions.
 - Enable Developer Mode (toggle in the top right corner).
